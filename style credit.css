@@ -1,0 +1,35 @@
+body {
+    background-image: url(imgs/Bank.jpg);
+    background-size: cover;
+}
+
+.container {
+    justify-content: space-around;
+    height: 180px;
+    width: 65%;
+    margin: auto;
+    margin-top: 25vh;
+    display: flex;
+}
+
+
+/* .container .Credit a {
+    width: 20px;
+    height: 20px;
+} */
+
+.table {
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    width: 27%;
+}
+
+.table tbody {
+    width: 50%;
+    color: white;
+}
+
+.table tr td {
+    padding-bottom: 20px;
+}

@@ -1,0 +1,78 @@
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+h3 {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+}
+
+.table {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 39px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(187, 25, 25);
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgb(6, 187, 21);
+}
+
+.kfc {
+    background-color: rgb(61, 61, 61);
+    background-image: url(imgs/KFC.jpg);
+    background-blend-mode: overlay;
+    border: 2px solid rgb(38, 39, 37);
+    width: 718px;
+    height: 150px;
+    /* padding-right: 30px; */
+    padding-left: 42%;
+}
+
+.kfc a img {
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(imgs/background\ kfc.jpg);
+    background-size: cover;
+    color: white;
+}

@@ -1,0 +1,450 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* style links */
+
+.container-links {
+    margin: auto;
+    background-color: #2f998c;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: 62px;
+    padding: 10px 5px;
+}
+
+.links {
+    position: sticky;
+    top: 0;
+    /* background-color: black;
+    border: 2px solid black; */
+    height: 42px;
+    width: 5%;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.links a {
+    line-height: 42px;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.links a i {
+    color: white;
+    font-size: 25px;
+}
+
+.links a i:hover {
+    background-color: rgb(29, 170, 76);
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    background-color: rgb(29, 170, 76);
+    color: white;
+    text-decoration: none;
+}
+
+
+/* End links */
+
+
+/* style fieldset page1 */
+
+.page1 {
+    background: #00c9fc;
+    color: black;
+}
+
+.page1 .icon {
+    justify-content: space-around;
+}
+
+.icon .content {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 15px;
+    padding-left: 310px;
+    /* background-color: #fdca40; */
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #2f998c;
+}
+
+.icon :hover {
+    background-color: rgb(29, 170, 60)
+}
+
+.content .span {
+    margin-top: 18px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.content .heading a {
+    color: black;
+    text-decoration: none;
+}
+
+.content .heading {
+    font-weight: bolder;
+    word-spacing: -13px;
+    letter-spacing: 13px;
+    padding-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* End fieldset page1 */
+
+
+/* style fieldset page2 */
+
+.page2 {
+    background: #00c9fc;
+    color: black
+}
+
+
+/* End fieldset page2 */
+
+.child {
+    text-align: center;
+    transition: transform .5s ease-in-out;
+}
+
+.child:hover {
+    transform: scale(1.1);
+}
+
+
+/* Start Img */
+
+.child .image-film1 {
+    margin: auto;
+    width: 219px;
+    height: 270px;
+    background-size: cover;
+    background-image: url(Aflam/HUNGER\ 1.jpg);
+    position: relative;
+}
+
+.child .image-film1 .layer {
+    position: absolute;
+    width: 219px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 25%;
+    transition: height 2s ease-in-out;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.child .image-film1 .layer:hover {
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 100%;
+}
+
+
+/* image 2 */
+
+.child .image-film2 {
+    margin: auto;
+    width: 219px;
+    height: 270px;
+    background-size: cover;
+    background-image: url(Aflam/IMAX\ 2.jpg);
+    position: relative;
+}
+
+.child .image-film2 .layer {
+    position: absolute;
+    width: 219px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 25%;
+    transition: height 2s ease-in-out;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.child .image-film2 .layer:hover {
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 100%;
+}
+
+
+/* image 3*/
+
+.child .image-film3 {
+    margin: auto;
+    width: 219px;
+    height: 270px;
+    background-size: cover;
+    background-image: url(Aflam/IN\ HELL\ 3.jpg);
+    position: relative;
+}
+
+.child .image-film3 .layer {
+    position: absolute;
+    width: 219px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 25%;
+    transition: height 2s ease-in-out;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.child .image-film3 .layer:hover {
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 100%;
+}
+
+
+/* image 4 */
+
+.child .image-film4 {
+    margin: auto;
+    width: 219px;
+    height: 270px;
+    background-size: cover;
+    background-image: url(Aflam/LEGEND\ 4.webp);
+    position: relative;
+}
+
+.child .image-film4 .layer {
+    position: absolute;
+    width: 219px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 25%;
+    transition: height 2s ease-in-out;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.child .image-film4 .layer:hover {
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 100%;
+}
+
+
+/* image 5*/
+
+.child .image-film5 {
+    margin: auto;
+    width: 219px;
+    height: 270px;
+    background-size: cover;
+    background-image: url(Aflam/Made\ Max\ 5.jpg);
+    position: relative;
+}
+
+.child .image-film5 .layer {
+    position: absolute;
+    width: 219px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 25%;
+    transition: height 2s ease-in-out;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.child .image-film5 .layer:hover {
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 100%;
+}
+
+
+/* image 6 */
+
+.child .image-film6 {
+    margin: auto;
+    width: 219px;
+    height: 270px;
+    background-size: cover;
+    background-image: url(Aflam/PASSIONATE\ 6.png);
+    position: relative;
+}
+
+.child .image-film6 .layer {
+    position: absolute;
+    width: 219px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 25%;
+    transition: height 2s ease-in-out;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.child .image-film6 .layer:hover {
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 100%;
+}
+
+
+/* image 7 */
+
+.child .image-film7 {
+    margin: auto;
+    width: 219px;
+    height: 270px;
+    background-size: cover;
+    background-image: url(Aflam/Sadece\ Sen\ 7.jpg);
+    position: relative;
+}
+
+.child .image-film7 .layer {
+    position: absolute;
+    width: 219px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 25%;
+    transition: height 2s ease-in-out;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.child .image-film7 .layer:hover {
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 100%;
+}
+
+
+/* image 8 */
+
+.child .image-film8 {
+    margin: auto;
+    width: 219px;
+    height: 270px;
+    background-size: cover;
+    background-image: url(Aflam/The\ Green\ Mile\ 8.jpg);
+    position: relative;
+}
+
+.child .image-film8 .layer {
+    position: absolute;
+    width: 219px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 25%;
+    transition: height 2s ease-in-out;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.child .image-film8 .layer:hover {
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 100%;
+}
+
+
+/* image 9 */
+
+.child .image-film9 {
+    margin: auto;
+    width: 219px;
+    height: 270px;
+    background-size: cover;
+    background-image: url(Aflam/The\ Last\ Castle\ 9.jpg);
+    position: relative;
+}
+
+.child .image-film9 .layer {
+    position: absolute;
+    width: 219px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 25%;
+    transition: height 2s ease-in-out;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.child .image-film9 .layer:hover {
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 100%;
+}
+
+
+/* Start Child1 */
+
+.parent {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 30px;
+}
+
+.parent .child {
+    width: 270px;
+    margin-left: 55px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.child .image img {
+    width: 219px;
+    height: 270px;
+    background-color: tomato
+}
+
+.child .image img:hover {
+    background-color: rgba(184, 61, 61, .5);
+}
+
+.child button {
+    display: inline-block;
+    background-color: rgb(0, 26, 255);
+    color: white;
+    margin-top: 20px;
+    /* background-color: cornflowerblue; */
+}
+
+.child button:hover {
+    background-color: rgb(21, 116, 9);
+}
+
+.child .image:hover {
+    opacity: .5;
+}
+
+
+/* .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 24px;
+} */
+
+
+/* EndChild1 */
